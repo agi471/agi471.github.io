@@ -145,6 +145,11 @@ h4 {
 	margin-bottom: 20px;	
 }
 
+.nopadding{
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
 
 
 /* ----------------------------------------------------
@@ -700,16 +705,6 @@ h4 {
 	text-align: center;
 }
 
-figure.effect-moses {
-	background: -webkit-linear-gradient(-45deg, #EC65B7 0%,#05E0D8 100%);
-	background: linear-gradient(-45deg, #EC65B7 0%,#05E0D8 100%);
-}
-
-figure.effect-moses img {
-	opacity: 0.85;
-	-webkit-transition: opacity 0.35s;
-	transition: opacity 0.35s;
-}
 
 figure.effect-moses h2,
 figure.effect-moses p {
