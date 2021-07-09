@@ -862,11 +862,11 @@ section {
   font-weight: 600;
   padding: 0;
   margin: 20px 0;
-  color: rgba(255, 255, 255, 0.8);
+  color: #8db596;
 }
 
 .why-us .box p {
-  color: #aaaaaa;
+  color: #8db596;
   font-size: 15px;
   margin: 0;
   padding: 0;
@@ -879,7 +879,7 @@ section {
 }
 
 .why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
-  color: #fff;
+  color: #351f39;
 }
 
 /*--------------------------------------------------------------

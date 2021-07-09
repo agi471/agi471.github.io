@@ -119,15 +119,6 @@ h4 {
 }
 
 
-.hr {
-	border-bottom: 2px solid #4f4d47;
-	display: block;
-	width: 14px;
-	margin: auto;
-	margin-bottom: 20px;
-}
-
-
 .media, .media-heading {
 	font-size: 1em;
 }
@@ -705,7 +696,56 @@ h4 {
 	text-align: center;
 }
 
+/* black*/
+figure.effect-moses-b h2,
+figure.effect-moses-b p {
+	padding: 20px;
+	width: 50%;
+	height: 50%;
+	border-top: 1px solid #000000;
+	color: black;
+}
 
+figure.effect-moses-b h2 {
+	padding: 20px;
+	width: 50%;
+	height: 50%;
+	text-align: left;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(10px,10px,0);
+	transform: translate3d(10px,10px,0);
+	font-size: 1.6em;
+}
+
+figure.effect-moses-b p {
+	float: right;
+	padding: 20px;
+	text-align: right;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	font-size: 0.9em;
+}
+
+figure.effect-moses-b:hover h2 {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-moses-b:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-moses-b:hover img {
+	opacity: 0.6;
+}
+
+/* white*/
 figure.effect-moses h2,
 figure.effect-moses p {
 	padding: 20px;
@@ -748,6 +788,7 @@ figure.effect-moses:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+	
 }
 
 figure.effect-moses:hover img {
@@ -828,7 +869,6 @@ figure.effect-moses:hover img {
 
 
 .holder {
-	width: 100%;
 	padding-bottom: 6px;
 	margin-top: 40px;
 }
